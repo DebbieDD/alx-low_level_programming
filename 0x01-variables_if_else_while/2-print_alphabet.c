@@ -1,17 +1,21 @@
 #include <stdio.h>
+/* more heaers goes there */
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
+/* betty style doc for function main goes there */
 int main(void)
 {
+	char i;
 
-	char c;
+	i = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-		putchar('\n');
-
-return (0);
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
