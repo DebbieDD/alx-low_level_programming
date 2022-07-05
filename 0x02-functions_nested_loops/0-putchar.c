@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - Print the word "Holberton"
+* main - Print the word 
 *
 * Return: Always 0 (Success)
 */
@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i;
-	char p[] = "Holberton";
+	char p[] = "_putchar";
 
 	for (i = 0; i < 9; i++)
 		{
