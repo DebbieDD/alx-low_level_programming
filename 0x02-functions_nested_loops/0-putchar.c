@@ -2,19 +2,21 @@
 #include "main.h"
 
 /**
-* main - Print the word
-*
-* Return: Always 0 (Success)
-*/
-
+ * main - Entry point
+ *
+ * Description: A program that prints _putchar and new line
+ *
+ * Return: returns 0
+ **/
 int main(void)
 {
-	int i;
-	char p[] = "_putchar";
+	char c[8] = "_putchar";
+	int i = 0;
 
-	for (i = 0; i < 9; i++)
+	while (i < 8)
 	{
-		_putchar(p[i]);
+		_putchar(c[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
